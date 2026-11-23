@@ -59,15 +59,19 @@
 |---|---|---|---|
 | [cache-tax-confirm](https://github.com/GenLI3202/cache-tax-confirm) | 🟢 自制 | ★★★ · 112 | 提示缓存冷了，发送被拦在「付费发送」卡片后面，并建议付费还是换新会话。是 Karan Bansal 的 cache-tax 的修改版。 |
 | [session-handoff](https://github.com/GenLI3202/session-handoff) | 🟢 自制 | ★★★ · 42 | 在另一个智能体里接续 Codex 或 Claude 的对话（读本地记录）。 |
+| [run-watch](https://github.com/GenLI3202/run-watch) | 🟢 自制 | ★ · 3 | 从日志文件看守长时间的任务，不调用模型：进度、预计剩余时间，完成、失败或停滞时通知你。 |
 | [github-issue-curation](https://github.com/GenLI3202/github-issue-curation) | 🟢 自制 | ★ · 6 | 按统一标准提交和整理 GitHub issue：短标题、中英双语正文。 |
+| [checkpoint](https://github.com/GenLI3202/checkpoint) | 🟢 自制 | — · 1 | `/checkpoint` 写一个简短的交接文件；卡片在合适的时刻建议压缩；休息回来后告诉你做到哪了，不调用模型。 |
+| [model-router](https://github.com/GenLI3202/model-router) | 🟢 自制 | n/a | 让轻量的子 agent 任务跑在 Sonnet 上，而不是贵的会话模型；从不自己启动或建议子 agent。自动生效，所以没有使用次数。 |
 | [codebase-design · domain-modeling](https://github.com/mattpocock/skills) | 🔗 三方 · Matt Pocock | — · 1 | 设计「深模块」；建立项目的领域术语和决策记录。 |
 
-### 桌面版的观感
+### 桌面版 mod：观感与日常工具
 
 | 名称 | 来源 | 使用频率（会话数） | 做什么 |
 |---|---|---|---|
 | [star-voyage](https://github.com/GenLI3202/star-voyage) | 🟢 自制 | ★★★ · 81 | 一款皮肤：飞向你定下那一天的飞船。星图、穿梭、入港、古诗；星空与日间两种主题。 |
 | [focus-timer](https://github.com/GenLI3202/focus-timer) | 🟢 自制 | ★★★ · 45 | 输入框上方的专注倒计时卡片：每轮一个产出、一天四个圆点、会提示做点什么的休息、会来串门的螃蟹。 |
+| [mods-manager](https://github.com/GenLI3202/mods-manager) | 🟢 自制 | — · 2 | `/mods`：一个面板，列出你装的 mod，点一下就能开关。 |
 | [crab-pal](https://github.com/GenLI3202/crab-pal) | 🟢 自制 | n/a | 每个会话一只螃蟹；看其他会话和子 agent，点一下就跳转。常驻显示，所以没有使用次数。 |
 
 ### 项目专用
@@ -82,13 +86,10 @@
 
 ```text
 /plugin marketplace add GenLI3202/agent-kit
-/plugin install star-voyage@agent-kit
-/plugin install crab-pal@agent-kit
-/plugin install cache-tax-confirm@agent-kit
-/plugin install focus-timer@agent-kit
+/plugin install crab-pal@agent-kit     # 或者其他任何一个 mod
 ```
 
-cache-tax-confirm 不要和上游的 cache-tax 同时安装。**技能**：每个仓库的 README 里有各自的安装步骤。三方技能请按作者的说明安装。
+这个市场里的 mod：star-voyage、crab-pal、cache-tax-confirm、focus-timer、checkpoint、run-watch、model-router、mods-manager。cache-tax-confirm 不要和上游的 cache-tax 同时安装。**技能**：每个仓库的 README 里有各自的安装步骤。三方技能请按作者的说明安装。
 
 ## 效果图
 

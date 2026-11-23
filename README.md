@@ -59,15 +59,19 @@ Everything I use with coding agents, in one index: **mods and skins for the Clau
 |---|---|---|---|
 | [cache-tax-confirm](https://github.com/GenLI3202/cache-tax-confirm) | 🟢 mine | ★★★ · 112 | Cold prompt cache? The send waits behind a Pay and send card, with advice to pay or hand off. A patch of cache-tax by Karan Bansal. |
 | [session-handoff](https://github.com/GenLI3202/session-handoff) | 🟢 mine | ★★★ · 42 | Continue a Codex or Claude conversation from its local record in another agent. |
+| [run-watch](https://github.com/GenLI3202/run-watch) | 🟢 mine | ★ · 3 | Watch long runs from their log files with no model calls: progress, ETA, and a notice when a run finishes, fails or stalls. |
 | [github-issue-curation](https://github.com/GenLI3202/github-issue-curation) | 🟢 mine | ★ · 6 | File and curate GitHub issues to one standard: short titles, bilingual bodies. |
+| [checkpoint](https://github.com/GenLI3202/checkpoint) | 🟢 mine | — · 1 | `/checkpoint` writes a short handoff file; a card suggests compacting at a calm moment; a welcome back after a break, with no model call. |
+| [model-router](https://github.com/GenLI3202/model-router) | 🟢 mine | n/a | Runs light subagent jobs on Sonnet instead of the pricier session model; never starts or suggests a subagent. Automatic, so no usage count. |
 | [codebase-design · domain-modeling](https://github.com/mattpocock/skills) | 🔗 3rd-party · Matt Pocock | — · 1 | Design deep modules; build a project's domain language and decision records. |
 
-### Desktop look and feel
+### Desktop mods: look, feel and housekeeping
 
 | Name | Source | Use (sessions) | What it does |
 |---|---|---|---|
 | [star-voyage](https://github.com/GenLI3202/star-voyage) | 🟢 mine | ★★★ · 81 | A skin: a ship flying toward a day you choose. Star chart, warp, harbour, poems; night and day. |
 | [focus-timer](https://github.com/GenLI3202/focus-timer) | 🟢 mine | ★★★ · 45 | A focus countdown card above the prompt: one outcome per round, four dots a day, breaks that say something, a crab that drops by. |
+| [mods-manager](https://github.com/GenLI3202/mods-manager) | 🟢 mine | — · 2 | `/mods`: a pane that lists your installed mods and turns each on or off with a click. |
 | [crab-pal](https://github.com/GenLI3202/crab-pal) | 🟢 mine | n/a | A crab per session; see your other sessions and their subagents, click to jump. Always on, so no usage count. |
 
 ### Project-specific
@@ -82,13 +86,10 @@ Everything I use with coding agents, in one index: **mods and skins for the Clau
 
 ```text
 /plugin marketplace add GenLI3202/agent-kit
-/plugin install star-voyage@agent-kit
-/plugin install crab-pal@agent-kit
-/plugin install cache-tax-confirm@agent-kit
-/plugin install focus-timer@agent-kit
+/plugin install crab-pal@agent-kit     # or any other mod
 ```
 
-Do not install cache-tax-confirm beside upstream cache-tax. **Skills**: each repository's README has its own steps. Third-party skills: follow the author's instructions.
+Mods in this marketplace: star-voyage, crab-pal, cache-tax-confirm, focus-timer, checkpoint, run-watch, model-router, mods-manager. Do not install cache-tax-confirm beside upstream cache-tax. **Skills**: each repository's README has its own steps. Third-party skills: follow the author's instructions.
 
 ## Gallery
 

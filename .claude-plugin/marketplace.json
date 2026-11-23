@@ -38,6 +38,38 @@
         "source": "github",
         "repo": "GenLI3202/focus-timer"
       }
+    },
+    {
+      "name": "checkpoint",
+      "description": "交接点：`/checkpoint` 写一个简短的交接文件，卡片建议在合适的时刻压缩，休息回来后告诉你做到哪了。 `/checkpoint` writes a short handoff, a card suggests compacting, a welcome back after a break.",
+      "source": {
+        "source": "github",
+        "repo": "GenLI3202/checkpoint"
+      }
+    },
+    {
+      "name": "run-watch",
+      "description": "长任务看守：从日志文件显示进度和预计剩余时间，完成、失败、停滞时通知，不调用模型。 Watch long runs from their logs with no model calls.",
+      "source": {
+        "source": "github",
+        "repo": "GenLI3202/run-watch"
+      }
+    },
+    {
+      "name": "model-router",
+      "description": "让轻量的子 agent 任务跑在更便宜的模型上，从不自己启动或建议子 agent。 Runs light subagent jobs on a cheaper model; never starts one.",
+      "source": {
+        "source": "github",
+        "repo": "GenLI3202/model-router"
+      }
+    },
+    {
+      "name": "mods-manager",
+      "description": "`/mods` 面板：列出你装的 mod，点一下开关。 A pane that lists your mods and turns each on or off.",
+      "source": {
+        "source": "github",
+        "repo": "GenLI3202/mods-manager"
+      }
     }
   ]
 }
