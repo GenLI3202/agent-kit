@@ -93,6 +93,12 @@
 
 ## 效果图
 
+### 技能
+
+#### [html-presentation-deck](https://github.com/GenLI3202/html-presentation-deck)
+
+<img src="https://raw.githubusercontent.com/GenLI3202/html-presentation-deck/main/docs/images/embed-live.gif" width="520">
+
 ### Mod 和皮肤 · Claude desktop
 
 #### [star-voyage](https://github.com/GenLI3202/star-voyage) · 星空远征

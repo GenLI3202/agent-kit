@@ -93,6 +93,12 @@ Mods in this marketplace: star-voyage, crab-pal, cache-tax-confirm, focus-timer,
 
 ## Gallery
 
+### Skills
+
+#### [html-presentation-deck](https://github.com/GenLI3202/html-presentation-deck)
+
+<img src="https://raw.githubusercontent.com/GenLI3202/html-presentation-deck/main/docs/images/embed-live.gif" width="520">
+
 ### Mods and skins · Claude desktop
 
 #### [star-voyage](https://github.com/GenLI3202/star-voyage) · 星空远征
