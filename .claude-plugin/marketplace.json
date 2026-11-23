@@ -1,0 +1,22 @@
+{
+  "name": "agent-kit",
+  "owner": { "name": "GenLI3202" },
+  "metadata": { "description": "GenLI3202's Claude desktop mods and skins, one marketplace. 一个市场装全部：星空远征皮肤、螃蟹搭子、cache-tax-confirm。" },
+  "plugins": [
+    {
+      "name": "star-voyage",
+      "description": "星空远征：一艘飞往你定下那一天的飞船。星图巡航、打字拉近、发送后星际穿梭、闲置入港；竖排诗句；并行的对话显示为远征小队。 A Claude desktop skin: a ship flying toward a day you choose.",
+      "source": { "source": "github", "repo": "GenLI3202/star-voyage" }
+    },
+    {
+      "name": "crab-pal",
+      "description": "螃蟹搭子：每个会话一只像素小螃蟹。看到其他会话和它们的子 agent，点一下就跳过去。 A pixel crab per session: see your other sessions and their subagents, click to jump.",
+      "source": { "source": "github", "repo": "GenLI3202/crab-pal" }
+    },
+    {
+      "name": "cache-tax-confirm",
+      "description": "cache-tax 的修改版：缓存冷了，发送被拦在一张「付费发送 / 放弃」卡片后面，并建议付费还是换新会话。 cache-tax patched: a cold send waits behind a Pay and send card. Do not install beside upstream cache-tax.",
+      "source": { "source": "github", "repo": "GenLI3202/cache-tax-confirm" }
+    }
+  ]
+}
