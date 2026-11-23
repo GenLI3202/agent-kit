@@ -2,7 +2,7 @@
 
 [简体中文](README.zh-CN.md)
 
-Everything I use with coding agents, in one index: **mods and skins for the Claude desktop app** and **skills** for Claude Code, Codex and other agents that read `SKILL.md`. Mine live in their own repositories; third-party ones I use a lot are listed too, **clearly marked 🔗 3rd-party** and linked to their authors. This repository is also a plugin marketplace for my three mods.
+Everything I use with coding agents, in one index: **mods and skins for the Claude desktop app** and **skills** for Claude Code, Codex and other agents that read `SKILL.md`. Mine live in their own repositories; third-party ones I use a lot are listed too, **clearly marked 🔗 3rd-party** and linked to their authors. This repository is also a plugin marketplace for my mods.
 
 ## How to read the tables
 
@@ -15,8 +15,8 @@ Everything I use with coding agents, in one index: **mods and skins for the Clau
 
 | | |
 |---|---|
-| ★★★ | [cache-tax-confirm](https://github.com/GenLI3202/cache-tax-confirm) (112), [star-voyage](https://github.com/GenLI3202/star-voyage) (81), [session-handoff](https://github.com/GenLI3202/session-handoff) (42), [html-presentation-deck](https://github.com/GenLI3202/html-presentation-deck) (36) |
-| ★★ | 🔗 [zotero-cli](https://github.com/54yyyu/zotero-mcp) (24), [persona-review-panel](https://github.com/GenLI3202/persona-review-panel) (19), [paper-study](https://github.com/GenLI3202/paper-study) (11) |
+| ★★★ | [cache-tax-confirm](https://github.com/GenLI3202/cache-tax-confirm) (112), [star-voyage](https://github.com/GenLI3202/star-voyage) (81), [focus-timer](https://github.com/GenLI3202/focus-timer) (45), [session-handoff](https://github.com/GenLI3202/session-handoff) (42), [html-presentation-deck](https://github.com/GenLI3202/html-presentation-deck) (36) |
+| ★★ | 🔗 [zotero-cli](https://github.com/54yyyu/zotero-mcp) (24), [walkthrough-cards](https://github.com/GenLI3202/walkthrough-cards) (21), [persona-review-panel](https://github.com/GenLI3202/persona-review-panel) (19), [paper-study](https://github.com/GenLI3202/paper-study) (11) |
 
 ## By category
 
@@ -34,6 +34,7 @@ Everything I use with coding agents, in one index: **mods and skins for the Clau
 | Name | Source | Use (sessions) | What it does |
 |---|---|---|---|
 | [zotero-cli](https://github.com/54yyyu/zotero-mcp) | 🔗 3rd-party · 54yyyu | ★★ · 24 | Read and write your Zotero library from the shell: search, PDF full text, notes, annotations, citations. Ships with zotero-mcp (`zotero-mcp install-skill`). |
+| [walkthrough-cards](https://github.com/GenLI3202/walkthrough-cards) | 🟢 mine | ★★ · 21 | Turn a model, a codebase or a research storyline into learning cards: one question per card, layers, diagrams, offline HTML, EN/中文. |
 | [paper-study](https://github.com/GenLI3202/paper-study) | 🟢 mine | ★★ · 11 | Explanation-first guided reading of academic papers, with durable study notes. |
 | [weread-skills](https://github.com/Tencent/WeChatReading) | 🔗 3rd-party · Tencent | — · 2 | WeChat Reading: search books, shelf, highlights, reviews, reading stats. |
 | [agent-reach](https://github.com/Panniantong/Agent-Reach) | 🔗 3rd-party · Panniantong | — · 1 | Read and search Twitter, Reddit, YouTube, Xiaohongshu, Bilibili and more, read-only. |
@@ -66,6 +67,7 @@ Everything I use with coding agents, in one index: **mods and skins for the Clau
 | Name | Source | Use (sessions) | What it does |
 |---|---|---|---|
 | [star-voyage](https://github.com/GenLI3202/star-voyage) | 🟢 mine | ★★★ · 81 | A skin: a ship flying toward a day you choose. Star chart, warp, harbour, poems; night and day. |
+| [focus-timer](https://github.com/GenLI3202/focus-timer) | 🟢 mine | ★★★ · 45 | A focus countdown card above the prompt: one outcome per round, four dots a day, breaks that say something, a crab that drops by. |
 | [crab-pal](https://github.com/GenLI3202/crab-pal) | 🟢 mine | n/a | A crab per session; see your other sessions and their subagents, click to jump. Always on, so no usage count. |
 
 ### Project-specific
@@ -83,6 +85,7 @@ Everything I use with coding agents, in one index: **mods and skins for the Clau
 /plugin install star-voyage@agent-kit
 /plugin install crab-pal@agent-kit
 /plugin install cache-tax-confirm@agent-kit
+/plugin install focus-timer@agent-kit
 ```
 
 Do not install cache-tax-confirm beside upstream cache-tax. **Skills**: each repository's README has its own steps. Third-party skills: follow the author's instructions.
@@ -104,6 +107,10 @@ Do not install cache-tax-confirm beside upstream cache-tax. **Skills**: each rep
 #### [cache-tax-confirm](https://github.com/GenLI3202/cache-tax-confirm)
 
 <img src="https://raw.githubusercontent.com/GenLI3202/cache-tax-confirm/main/docs/images/cachetax-dark.png" width="640">
+
+#### [focus-timer](https://github.com/GenLI3202/focus-timer) · 专注计时
+
+<img src="https://raw.githubusercontent.com/GenLI3202/focus-timer/main/docs/images/card.png" width="520">
 
 ## License
 

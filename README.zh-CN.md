@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-我和编程智能体一起用的所有东西，放在一个索引里：**Claude 桌面版的 mod 和皮肤**，以及给 Claude Code、Codex 等读 `SKILL.md` 的智能体用的**技能**。自己做的各有自己的仓库；我常用的第三方作品也列在里面，**明确标注 🔗 三方**，并链接到原作者。这个仓库同时是我三个 mod 的插件市场。
+我和编程智能体一起用的所有东西，放在一个索引里：**Claude 桌面版的 mod 和皮肤**，以及给 Claude Code、Codex 等读 `SKILL.md` 的智能体用的**技能**。自己做的各有自己的仓库；我常用的第三方作品也列在里面，**明确标注 🔗 三方**，并链接到原作者。这个仓库同时是我自己 mod 的插件市场。
 
 ## 表格怎么读
 
@@ -15,8 +15,8 @@
 
 | | |
 |---|---|
-| ★★★ | [cache-tax-confirm](https://github.com/GenLI3202/cache-tax-confirm)（112）、[star-voyage](https://github.com/GenLI3202/star-voyage)（81）、[session-handoff](https://github.com/GenLI3202/session-handoff)（42）、[html-presentation-deck](https://github.com/GenLI3202/html-presentation-deck)（36） |
-| ★★ | 🔗 [zotero-cli](https://github.com/54yyyu/zotero-mcp)（24）、[persona-review-panel](https://github.com/GenLI3202/persona-review-panel)（19）、[paper-study](https://github.com/GenLI3202/paper-study)（11） |
+| ★★★ | [cache-tax-confirm](https://github.com/GenLI3202/cache-tax-confirm)（112）、[star-voyage](https://github.com/GenLI3202/star-voyage)（81）、[focus-timer](https://github.com/GenLI3202/focus-timer)（45）、[session-handoff](https://github.com/GenLI3202/session-handoff)（42）、[html-presentation-deck](https://github.com/GenLI3202/html-presentation-deck)（36） |
+| ★★ | 🔗 [zotero-cli](https://github.com/54yyyu/zotero-mcp)（24）、[walkthrough-cards](https://github.com/GenLI3202/walkthrough-cards)（21）、[persona-review-panel](https://github.com/GenLI3202/persona-review-panel)（19）、[paper-study](https://github.com/GenLI3202/paper-study)（11） |
 
 ## 按功能分类
 
@@ -34,6 +34,7 @@
 | 名称 | 来源 | 使用频率（会话数） | 做什么 |
 |---|---|---|---|
 | [zotero-cli](https://github.com/54yyyu/zotero-mcp) | 🔗 三方 · 54yyyu | ★★ · 24 | 在命令行里读写 Zotero 文献库：搜索、PDF 全文、笔记、批注、引用。随 zotero-mcp 一起发布（`zotero-mcp install-skill`）。 |
+| [walkthrough-cards](https://github.com/GenLI3202/walkthrough-cards) | 🟢 自制 | ★★ · 21 | 把模型、代码库或研究故事线做成学习卡片：一张卡一个问题、分层翻开、带图示，离线 HTML，中英双语。 |
 | [paper-study](https://github.com/GenLI3202/paper-study) | 🟢 自制 | ★★ · 11 | 先讲明白再往下读的论文精读，并维护长期学习笔记。 |
 | [weread-skills](https://github.com/Tencent/WeChatReading) | 🔗 三方 · Tencent | — · 2 | 微信读书：搜书、书架、划线笔记、书评、阅读统计。 |
 | [agent-reach](https://github.com/Panniantong/Agent-Reach) | 🔗 三方 · Panniantong | — · 1 | 只读地搜索、阅读推特、Reddit、YouTube、小红书、B 站等平台的内容。 |
@@ -66,6 +67,7 @@
 | 名称 | 来源 | 使用频率（会话数） | 做什么 |
 |---|---|---|---|
 | [star-voyage](https://github.com/GenLI3202/star-voyage) | 🟢 自制 | ★★★ · 81 | 一款皮肤：飞向你定下那一天的飞船。星图、穿梭、入港、古诗；星空与日间两种主题。 |
+| [focus-timer](https://github.com/GenLI3202/focus-timer) | 🟢 自制 | ★★★ · 45 | 输入框上方的专注倒计时卡片：每轮一个产出、一天四个圆点、会提示做点什么的休息、会来串门的螃蟹。 |
 | [crab-pal](https://github.com/GenLI3202/crab-pal) | 🟢 自制 | n/a | 每个会话一只螃蟹；看其他会话和子 agent，点一下就跳转。常驻显示，所以没有使用次数。 |
 
 ### 项目专用
@@ -83,6 +85,7 @@
 /plugin install star-voyage@agent-kit
 /plugin install crab-pal@agent-kit
 /plugin install cache-tax-confirm@agent-kit
+/plugin install focus-timer@agent-kit
 ```
 
 cache-tax-confirm 不要和上游的 cache-tax 同时安装。**技能**：每个仓库的 README 里有各自的安装步骤。三方技能请按作者的说明安装。
@@ -104,6 +107,10 @@ cache-tax-confirm 不要和上游的 cache-tax 同时安装。**技能**：每�
 #### [cache-tax-confirm](https://github.com/GenLI3202/cache-tax-confirm)
 
 <img src="https://raw.githubusercontent.com/GenLI3202/cache-tax-confirm/main/docs/images/cachetax-dark.png" width="640">
+
+#### [focus-timer](https://github.com/GenLI3202/focus-timer) · 专注计时
+
+<img src="https://raw.githubusercontent.com/GenLI3202/focus-timer/main/docs/images/card.png" width="520">
 
 ## 许可
 
