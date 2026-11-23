@@ -2,11 +2,81 @@
 
 [简体中文](README.zh-CN.md)
 
-A catalogue of what I have built for coding agents: **mods and skins for the Claude desktop app**, and **skills** for Claude Code, Codex and other agents that read `SKILL.md`. Each item lives in its own repository; this one is the index, and it is also a plugin marketplace, so the mods install from a single source.
+Everything I use with coding agents, in one index: **mods and skins for the Claude desktop app** and **skills** for Claude Code, Codex and other agents that read `SKILL.md`. Mine live in their own repositories; third-party ones I use a lot are listed too, **clearly marked 🔗 3rd-party** and linked to their authors. This repository is also a plugin marketplace for my three mods.
 
-## Install the mods and skins
+## How to read the tables
 
-In the desktop app: click **+** next to the prompt box, then **Plugins**, **Add marketplace** with `GenLI3202/agent-kit`, then **Add plugin**. Or in a terminal:
+- **Source**: 🟢 mine, or 🔗 3rd-party with its author. Third-party items are not mirrored here; follow the link and respect the author's licence.
+- **Use (sessions)**: the number of my own Claude Code sessions (May to November 2026, local transcripts) in which the skill or its command ran. ★★★ = 30 or more, ★★ = 10 to 29, ★ = 3 to 9, — = fewer. It is a count of my own habits, not a quality ranking. n/a = always-on or not measurable.
+- Each table is sorted by use.
+- Anthropic's built-in skills (docs, artifacts, browser…) and the Claude Code commands I also use daily are not listed.
+
+## My most-used
+
+| | |
+|---|---|
+| ★★★ | [cache-tax-confirm](https://github.com/GenLI3202/cache-tax-confirm) (112), [star-voyage](https://github.com/GenLI3202/star-voyage) (81), [session-handoff](https://github.com/GenLI3202/session-handoff) (42), [html-presentation-deck](https://github.com/GenLI3202/html-presentation-deck) (36) |
+| ★★ | 🔗 [savvy-progress](https://github.com/johnnyvizz/claude-kit/tree/main/plugins/savvy-progress) (24), [persona-review-panel](https://github.com/GenLI3202/persona-review-panel) (19), [paper-study](https://github.com/GenLI3202/paper-study) (11) |
+
+## By category
+
+### Presentations, documents and diagrams
+
+| Name | Source | Use (sessions) | What it does |
+|---|---|---|---|
+| [html-presentation-deck](https://github.com/GenLI3202/html-presentation-deck) | 🟢 mine | ★★★ · 36 | Turn research material into an interactive HTML talk: offline deck, presenter window, PDF handout. |
+| [diagram-design](https://github.com/cathrynlavery/diagram-design) | 🔗 3rd-party · cathrynlavery | ★ · 8 | Editorial-quality diagrams (architecture, flow, sequence, charts…) as standalone HTML/SVG. |
+| [huashu-design](https://github.com/alchaincyf/huashu-design) | 🔗 3rd-party · alchaincyf | — · 2 | High-fidelity HTML prototypes, slides and animation from one sentence. |
+| [archify](https://github.com/tt-a1i/archify) | 🔗 3rd-party · tt-a1i | — · 1 | Turn an idea, plan or codebase into an interactive diagram. |
+
+### Reading and research
+
+| Name | Source | Use (sessions) | What it does |
+|---|---|---|---|
+| [paper-study](https://github.com/GenLI3202/paper-study) | 🟢 mine | ★★ · 11 | Explanation-first guided reading of academic papers, with durable study notes. |
+| [weread-skills](https://github.com/Tencent/WeChatReading) | 🔗 3rd-party · Tencent | — · 2 | WeChat Reading: search books, shelf, highlights, reviews, reading stats. |
+| [agent-reach](https://github.com/Panniantong/Agent-Reach) | 🔗 3rd-party · Panniantong | — · 1 | Read and search Twitter, Reddit, YouTube, Xiaohongshu, Bilibili and more, read-only. |
+
+### Thinking partners and review
+
+| Name | Source | Use (sessions) | What it does |
+|---|---|---|---|
+| [persona-review-panel](https://github.com/GenLI3202/persona-review-panel) | 🟢 mine | ★★ · 19 | Persona agents (Jobs, Musk, Feynman…) review one document in parallel; disagreements are pulled together. |
+| [elon-musk-perspective](https://github.com/alchaincyf/elon-musk-skill) | 🔗 3rd-party · alchaincyf | ★ · 6 | Think through a problem the way Musk would: first principles, cost teardown. |
+| [feynman-perspective](https://github.com/alchaincyf/feynman-skill) | 🔗 3rd-party · alchaincyf | ★ · 5 | Feynman's lens: cargo-cult check, naming vs understanding, a demo instead of an argument. |
+| [steve-jobs-perspective](https://github.com/alchaincyf/steve-jobs-skill) | 🔗 3rd-party · alchaincyf | ★ · 4 | Jobs's lens on products and decisions: 6 mental models, 8 heuristics. |
+| [andrej-karpathy-perspective](https://github.com/alchaincyf/karpathy-skill) | 🔗 3rd-party · alchaincyf | — · 2 | Karpathy's lens: AI reliability, learning, vibe coding, hype checks. |
+| [zhang-yiming-perspective](https://github.com/alchaincyf/zhang-yiming-skill) | 🔗 3rd-party · alchaincyf | — · 1 | Zhang Yiming's lens on product, organisation, globalisation and talent. |
+| [ilya-sutskever-perspective](https://github.com/alchaincyf/ilya-sutskever-skill) | 🔗 3rd-party · alchaincyf | — · 0 | Ilya Sutskever's lens on AI direction, safety strategy and research taste. |
+| [huashu-nuwa](https://github.com/alchaincyf/nuwa-skill) | 🔗 3rd-party · alchaincyf | — · 0 | Distil anyone's way of thinking into a runnable skill (the perspective skills above come from it). |
+| [grilling · grill-me · grill-with-docs](https://github.com/mattpocock/skills) | 🔗 3rd-party · Matt Pocock | ★ · 6 | Get interviewed relentlessly about a plan until the gaps show; the docs variant also writes ADRs and a glossary as it goes. |
+
+### Agent workflow, sessions and cost
+
+| Name | Source | Use (sessions) | What it does |
+|---|---|---|---|
+| [cache-tax-confirm](https://github.com/GenLI3202/cache-tax-confirm) | 🟢 mine | ★★★ · 112 | Cold prompt cache? The send waits behind a Pay and send card, with advice to pay or hand off. A patch of cache-tax by Karan Bansal. |
+| [session-handoff](https://github.com/GenLI3202/session-handoff) | 🟢 mine | ★★★ · 42 | Continue a Codex or Claude conversation from its local record in another agent. |
+| [savvy-progress](https://github.com/johnnyvizz/claude-kit/tree/main/plugins/savvy-progress) | 🔗 3rd-party · johnnyvizz | ★★ · 24 | A mod: a progress bar and a live panel of running subagents with model, context and estimated cost (`/agents-info`). I use a locally patched copy. |
+| [github-issue-curation](https://github.com/GenLI3202/github-issue-curation) | 🟢 mine | ★ · 6 | File and curate GitHub issues to one standard: short titles, bilingual bodies. |
+| [codebase-design · domain-modeling](https://github.com/mattpocock/skills) | 🔗 3rd-party · Matt Pocock | — · 1 | Design deep modules; build a project's domain language and decision records. |
+
+### Desktop look and feel
+
+| Name | Source | Use (sessions) | What it does |
+|---|---|---|---|
+| [star-voyage](https://github.com/GenLI3202/star-voyage) | 🟢 mine | ★★★ · 81 | A skin: a ship flying toward a day you choose. Star chart, warp, harbour, poems; night and day. |
+| [crab-pal](https://github.com/GenLI3202/crab-pal) | 🟢 mine | n/a | A crab per session; see your other sessions and their subagents, click to jump. Always on, so no usage count. |
+
+### Project-specific
+
+| Name | Source | Use (sessions) | What it does |
+|---|---|---|---|
+| [acc-content-posting-system](https://github.com/GenLI3202/acc-content-posting-system) | 🟢 mine | n/a | Telegram-driven posting skills for Across Cycling Club's website: router plus events, routes, media and knowledge posters. Specific to that club. |
+
+## Install
+
+**Mods and skins**: in the desktop app click **+** next to the prompt box, then **Plugins**, **Add marketplace** with `GenLI3202/agent-kit`, then **Add plugin**. Or in a terminal:
 
 ```text
 /plugin marketplace add GenLI3202/agent-kit
@@ -15,40 +85,26 @@ In the desktop app: click **+** next to the prompt box, then **Plugins**, **Add 
 /plugin install cache-tax-confirm@agent-kit
 ```
 
-## Mods and skins · Claude desktop
+Do not install cache-tax-confirm beside upstream cache-tax. **Skills**: each repository's README has its own steps. Third-party skills: follow the author's instructions.
 
-### [star-voyage](https://github.com/GenLI3202/star-voyage) · 星空远征
+## Gallery
 
-A skin: a ship flying toward a day you choose (a graduation, a launch, a race). A star chart at cruise, the camera closing in as you type, a warp when you send, harbour when the cache goes cold, vertical classical poems in brush script, your other conversations as squads. Night and day themes.
+### Mods and skins · Claude desktop
+
+#### [star-voyage](https://github.com/GenLI3202/star-voyage) · 星空远征
 
 | Warp, night | Arrival and a poem, day |
 |---|---|
 | <img src="https://raw.githubusercontent.com/GenLI3202/star-voyage/main/docs/images/warp-night.gif" width="420"> | <img src="https://raw.githubusercontent.com/GenLI3202/star-voyage/main/docs/images/arrive-day.gif" width="420"> |
 
-### [crab-pal](https://github.com/GenLI3202/crab-pal) · 螃蟹搭子
-
-A pixel crab for every session, and a strip of sand above the prompt that shows **all your other sessions and their subagents** at a glance, coloured by status. **Click a crab to jump** to that conversation: no more hunting in the side panel.
+#### [crab-pal](https://github.com/GenLI3202/crab-pal) · 螃蟹搭子
 
 <img src="https://raw.githubusercontent.com/GenLI3202/crab-pal/main/docs/images/overview-dark.png" width="640">
 
-### [cache-tax-confirm](https://github.com/GenLI3202/cache-tax-confirm)
-
-A patched [cache-tax](https://github.com/karanb192/cache-tax): when the prompt cache is cold, the send waits behind a **Pay and send / Dismiss** card with the price, and advice on whether to pay or hand the work to a fresh session. Shows its status on crab-pal's beach. Do not install beside upstream cache-tax.
+#### [cache-tax-confirm](https://github.com/GenLI3202/cache-tax-confirm)
 
 <img src="https://raw.githubusercontent.com/GenLI3202/cache-tax-confirm/main/docs/images/cachetax-dark.png" width="640">
 
-## Skills · Claude Code, Codex and others
-
-| Skill | What it does |
-|---|---|
-| [html-presentation-deck](https://github.com/GenLI3202/html-presentation-deck) | Turn research material into an interactive HTML talk: offline deck, presenter window, PDF handout |
-| [paper-study](https://github.com/GenLI3202/paper-study) | Explanation-first guided reading of academic papers with durable study notes |
-| [persona-review-panel](https://github.com/GenLI3202/persona-review-panel) | Several persona agents (Jobs, Musk, Feynman…) review one document in parallel, then the disagreements are pulled together |
-| [github-issue-curation](https://github.com/GenLI3202/github-issue-curation) | File and curate GitHub issues to one standard: short titles, bilingual bodies |
-| [session-handoff](https://github.com/GenLI3202/session-handoff) | Continue a Codex or Claude conversation from its local record in another agent |
-
-Each skill's README has its own install steps.
-
 ## License
 
-Each project carries its own license; see its repository. This index is MIT.
+Each project carries its own licence; see its repository. This index is MIT.
