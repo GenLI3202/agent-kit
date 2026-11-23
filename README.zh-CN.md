@@ -16,7 +16,7 @@
 | | |
 |---|---|
 | ★★★ | [cache-tax-confirm](https://github.com/GenLI3202/cache-tax-confirm)（112）、[star-voyage](https://github.com/GenLI3202/star-voyage)（81）、[session-handoff](https://github.com/GenLI3202/session-handoff)（42）、[html-presentation-deck](https://github.com/GenLI3202/html-presentation-deck)（36） |
-| ★★ | 🔗 [savvy-progress](https://github.com/johnnyvizz/claude-kit/tree/main/plugins/savvy-progress)（24）、[persona-review-panel](https://github.com/GenLI3202/persona-review-panel)（19）、[paper-study](https://github.com/GenLI3202/paper-study)（11） |
+| ★★ | 🔗 [zotero-cli](https://github.com/54yyyu/zotero-mcp)（24）、[persona-review-panel](https://github.com/GenLI3202/persona-review-panel)（19）、[paper-study](https://github.com/GenLI3202/paper-study)（11） |
 
 ## 按功能分类
 
@@ -33,6 +33,7 @@
 
 | 名称 | 来源 | 使用频率（会话数） | 做什么 |
 |---|---|---|---|
+| [zotero-cli](https://github.com/54yyyu/zotero-mcp) | 🔗 三方 · 54yyyu | ★★ · 24 | 在命令行里读写 Zotero 文献库：搜索、PDF 全文、笔记、批注、引用。随 zotero-mcp 一起发布（`zotero-mcp install-skill`）。 |
 | [paper-study](https://github.com/GenLI3202/paper-study) | 🟢 自制 | ★★ · 11 | 先讲明白再往下读的论文精读，并维护长期学习笔记。 |
 | [weread-skills](https://github.com/Tencent/WeChatReading) | 🔗 三方 · Tencent | — · 2 | 微信读书：搜书、书架、划线笔记、书评、阅读统计。 |
 | [agent-reach](https://github.com/Panniantong/Agent-Reach) | 🔗 三方 · Panniantong | — · 1 | 只读地搜索、阅读推特、Reddit、YouTube、小红书、B 站等平台的内容。 |
@@ -57,7 +58,6 @@
 |---|---|---|---|
 | [cache-tax-confirm](https://github.com/GenLI3202/cache-tax-confirm) | 🟢 自制 | ★★★ · 112 | 提示缓存冷了，发送被拦在「付费发送」卡片后面，并建议付费还是换新会话。是 Karan Bansal 的 cache-tax 的修改版。 |
 | [session-handoff](https://github.com/GenLI3202/session-handoff) | 🟢 自制 | ★★★ · 42 | 在另一个智能体里接续 Codex 或 Claude 的对话（读本地记录）。 |
-| [savvy-progress](https://github.com/johnnyvizz/claude-kit/tree/main/plugins/savvy-progress) | 🔗 三方 · johnnyvizz | ★★ · 24 | 一个 mod：进度条，加上显示正在跑的子 agent（模型、上下文、估算成本）的实时面板（`/agents-info`）。我用的是本地打过补丁的版本。 |
 | [github-issue-curation](https://github.com/GenLI3202/github-issue-curation) | 🟢 自制 | ★ · 6 | 按统一标准提交和整理 GitHub issue：短标题、中英双语正文。 |
 | [codebase-design · domain-modeling](https://github.com/mattpocock/skills) | 🔗 三方 · Matt Pocock | — · 1 | 设计「深模块」；建立项目的领域术语和决策记录。 |
 

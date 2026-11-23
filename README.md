@@ -16,7 +16,7 @@ Everything I use with coding agents, in one index: **mods and skins for the Clau
 | | |
 |---|---|
 | ★★★ | [cache-tax-confirm](https://github.com/GenLI3202/cache-tax-confirm) (112), [star-voyage](https://github.com/GenLI3202/star-voyage) (81), [session-handoff](https://github.com/GenLI3202/session-handoff) (42), [html-presentation-deck](https://github.com/GenLI3202/html-presentation-deck) (36) |
-| ★★ | 🔗 [savvy-progress](https://github.com/johnnyvizz/claude-kit/tree/main/plugins/savvy-progress) (24), [persona-review-panel](https://github.com/GenLI3202/persona-review-panel) (19), [paper-study](https://github.com/GenLI3202/paper-study) (11) |
+| ★★ | 🔗 [zotero-cli](https://github.com/54yyyu/zotero-mcp) (24), [persona-review-panel](https://github.com/GenLI3202/persona-review-panel) (19), [paper-study](https://github.com/GenLI3202/paper-study) (11) |
 
 ## By category
 
@@ -33,6 +33,7 @@ Everything I use with coding agents, in one index: **mods and skins for the Clau
 
 | Name | Source | Use (sessions) | What it does |
 |---|---|---|---|
+| [zotero-cli](https://github.com/54yyyu/zotero-mcp) | 🔗 3rd-party · 54yyyu | ★★ · 24 | Read and write your Zotero library from the shell: search, PDF full text, notes, annotations, citations. Ships with zotero-mcp (`zotero-mcp install-skill`). |
 | [paper-study](https://github.com/GenLI3202/paper-study) | 🟢 mine | ★★ · 11 | Explanation-first guided reading of academic papers, with durable study notes. |
 | [weread-skills](https://github.com/Tencent/WeChatReading) | 🔗 3rd-party · Tencent | — · 2 | WeChat Reading: search books, shelf, highlights, reviews, reading stats. |
 | [agent-reach](https://github.com/Panniantong/Agent-Reach) | 🔗 3rd-party · Panniantong | — · 1 | Read and search Twitter, Reddit, YouTube, Xiaohongshu, Bilibili and more, read-only. |
@@ -57,7 +58,6 @@ Everything I use with coding agents, in one index: **mods and skins for the Clau
 |---|---|---|---|
 | [cache-tax-confirm](https://github.com/GenLI3202/cache-tax-confirm) | 🟢 mine | ★★★ · 112 | Cold prompt cache? The send waits behind a Pay and send card, with advice to pay or hand off. A patch of cache-tax by Karan Bansal. |
 | [session-handoff](https://github.com/GenLI3202/session-handoff) | 🟢 mine | ★★★ · 42 | Continue a Codex or Claude conversation from its local record in another agent. |
-| [savvy-progress](https://github.com/johnnyvizz/claude-kit/tree/main/plugins/savvy-progress) | 🔗 3rd-party · johnnyvizz | ★★ · 24 | A mod: a progress bar and a live panel of running subagents with model, context and estimated cost (`/agents-info`). I use a locally patched copy. |
 | [github-issue-curation](https://github.com/GenLI3202/github-issue-curation) | 🟢 mine | ★ · 6 | File and curate GitHub issues to one standard: short titles, bilingual bodies. |
 | [codebase-design · domain-modeling](https://github.com/mattpocock/skills) | 🔗 3rd-party · Matt Pocock | — · 1 | Design deep modules; build a project's domain language and decision records. |
 
